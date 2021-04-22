@@ -1,3 +1,5 @@
+import Data.List (partition)
+
 quicksort :: (Ord a) => [a] -> [a]  
 quicksort [] = []  
 quicksort (x:xs) =   
